@@ -1,0 +1,37 @@
+﻿# Python environment
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local databases
+library.db
+*.db-journal
+*.db-wal
+*.db-shm
+
+# Secrets
+.env
+.env.*
+!.env.example
+*.key
+
+# Build files
+build/
+dist/
+*.egg-info/
+
+# Logs
+*.log
+
+# IDE
+.idea/
+.vscode/
+
+# OS files
+Thumbs.db
+.DS_Store
